@@ -8,7 +8,7 @@ Dash abstracts away all of the technologies and protocols required to build an i
 # Introduction
 ## Main Functions:
 1. Convert
-- Upload one or more images, choose the format you want and click the download for each image. You will get the images of specific format you want. Here you have 4 options for the export image format.
+- Upload one or more images, choose the format you want and click the download for each image. You will get the images of specific format you want. Here you have 6 options for the export image format(PNG, JPEG, WEBP, GIF, ICO, BMP).
 2. Compress
 -  Upload one or more images, choose the degree of compression you want and click download. There are 3 options to choose. *Slightly, Moderately, High* represents different degrees. The more you compress, the smaller the storage of the image will take up and the blurry the image will be. The influence of the first two options have on images will barely visible to naked eye.
 
@@ -26,3 +26,4 @@ Dash abstracts away all of the technologies and protocols required to build an i
 
 ## Others
 - I also add a modebar in plotly canvas, which means you can also zoom in, zoon out, dawrn lines and so on.
+- Recommendation: to use chrome to open the dash is better
