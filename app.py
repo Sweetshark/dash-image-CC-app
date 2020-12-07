@@ -12,7 +12,7 @@ import numpy as np
 from io import BytesIO
 from dash.exceptions import PreventUpdate
 from SVD_Compress import svd_compress
-import gzip
+# import gzip
 import matplotlib.pyplot as plt
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
@@ -201,13 +201,6 @@ def show_contents(content, filename, date, type, compress):
             )
         ]
     )
-
-
-def gzip_zip_base64(content):
-    bytes_com = gzip.compress(str(content).encode("utf-8"))
-    base64_data = base64.b64encode(bytes_com)
-    back = str(base64_data.decode())
-    return back
 
 
 @app.callback(Output('output-image-upload', 'children'),
