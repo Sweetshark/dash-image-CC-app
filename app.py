@@ -13,7 +13,7 @@ from io import BytesIO
 from dash.exceptions import PreventUpdate
 from SVD_Compress import svd_compress
 # import gzip
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
